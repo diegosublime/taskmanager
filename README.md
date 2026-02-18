@@ -31,6 +31,14 @@ Entity framework
 - Edge
   - Cloudfare DNS, proxy and bot protection
 
+## Requirements
+- Create API to manage tasks. The API should expose methods for:
+  - Authentication and authorization
+    - Create Account (register): Capture email and password, confirmation code should be sent to provided email address
+    - Account confirmation: provide email address and confirmation code to finish the account creation
+    - Login: Only confirmed accounts can login, a jwt should be provided when email and correct password are provided.
+   
+  - Test endpoint: just to validate authentication and authorization 
 
 
 
